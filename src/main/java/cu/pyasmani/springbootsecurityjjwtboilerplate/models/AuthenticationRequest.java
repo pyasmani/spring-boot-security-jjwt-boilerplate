@@ -1,10 +1,10 @@
 package cu.pyasmani.springbootsecurityjjwtboilerplate.models;
 
 public class AuthenticationRequest {
-	
+
 	private String username;
 	private String password;
-	
+
 	public AuthenticationRequest() {
 	}
 
@@ -28,7 +28,5 @@ public class AuthenticationRequest {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	
-	
-	
+
 }

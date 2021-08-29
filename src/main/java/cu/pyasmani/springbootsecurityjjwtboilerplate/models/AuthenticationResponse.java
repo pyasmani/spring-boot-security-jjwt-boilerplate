@@ -9,6 +9,7 @@ public class AuthenticationResponse {
 		this.jwt = jwt;
 	}
 
+
 	public String getJwt() {
 		return jwt;
 	}
